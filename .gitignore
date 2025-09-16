@@ -22,3 +22,7 @@ chroma_db/
 
 # VS Code
 .vscode/
+
+# Archives
+*.tar.gz
+*.zip
