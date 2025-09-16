@@ -1,0 +1,24 @@
+    # Core AI Frameworks for building the agent and RAG pipeline
+    langchain
+    langchain-google-vertexai
+    llama-index
+    langgraph
+
+    # Local Vector Database for our initial knowledge base
+    chromadb
+
+    # Utility for handling API keys and other secrets
+    python-dotenv
+
+    # API clients for the services we will connect to
+    atlassian-python-api # For Confluence & Jira
+    PyGithub             # For GitHub
+    google-cloud-translate # For translating scraped content
+
+    # LlamaIndex specific data loaders
+    llama-index-readers-confluence
+    llama-index-readers-file
+    llama-index-readers-web
+    llama-index-vector-stores-chroma
+    llama-index-embeddings-vertex
+    llama-index-llms-google-genai
